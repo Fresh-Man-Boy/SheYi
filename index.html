@@ -2,36 +2,76 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>网页展示入口</title>
+  <title>数据可视化展示 - 入口</title>
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 800px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 16px;
       line-height: 1.6;
     }
-    h1 { margin-bottom: 10px; }
-    ul { padding-left: 20px; }
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    h1 {
+      margin-bottom: 8px;
+    }
+    p {
+      color: #555;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin: 6px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .folder {
+      font-weight: bold;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
-  <h1>网页展示入口</h1>
-  <p>点击下面的链接打开对应页面：</p>
+  <h1>数据可视化展示入口</h1>
+  <p>点击下方链接打开对应的图表页面（在新标签页中打开）。</p>
 
+  <div class="folder">2025_11_23</div>
   <ul>
-    <!-- 把下面这些 href 换成你自己的文件名 -->
-      <li><a href="2025_11_23/chart_01_流量趋势.html">2025_11_23 / page1.html</a></li>
-      <li><a href="2025_11_23/chart_02_转化漏斗对比.html">2025_11_23 / page2.html</a></li>
-      <li><a href="2025_11_23/chart_03_分阶段转化率.html">2025_11_23 / page2.html</a></li>
-      <li><a href="2025_11_23/chart_04_热力图.html">2025_11_23 / page2.html</a></li>
-      <li><a href="2025_11_23/chart_05_周内模式.html">2025_11_23 / page2.html</a></li>
-      <li><a href="2025_11_23/interactive_dashboard.html">2025_11_23 / page2.html</a></li>
-      <!-- 想看的人自己点哪个就行 -->
+    <li>
+      <a href="2025_11_23/chart_01_流量趋势.html" target="_blank">
+        chart_01_流量趋势.html · 流量趋势
+      </a>
+    </li>
+    <li>
+      <a href="2025_11_23/chart_02_转化漏斗对比.html" target="_blank">
+        chart_02_转化漏斗对比.html · 转化漏斗对比
+      </a>
+    </li>
+    <li>
+      <a href="2025_11_23/chart_03_分阶段转化率.html" target="_blank">
+        chart_03_分阶段转化率.html · 分阶段转化率
+      </a>
+    </li>
+    <li>
+      <a href="2025_11_23/chart_04_热力图.html" target="_blank">
+        chart_04_热力图.html · 热力图
+      </a>
+    </li>
+    <li>
+      <a href="2025_11_23/chart_05_周内模式.html" target="_blank">
+        chart_05_周内模式.html · 周内模式
+      </a>
+    </li>
+    <li>
+      <a href="2025_11_23/interactive_dashboard.html" target="_blank">
+        interactive_dashboard.html · 总览交互看板
+      </a>
+    </li>
   </ul>
-
-  <p>（以上文件名请根据你仓库里实际的 .html 名字修改。）</p>
 </body>
 </html>
